@@ -1,0 +1,828 @@
+html,body {
+    background:#fff;
+    color:#336666;
+    font-family: Verdana, Geneva, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    float: right;
+    padding-right:3%;
+}
+
+.left {
+    float: left;
+    padding-left:3%;
+}
+
+sub {
+    color:#99cccc;
+    font-size:11px;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+}
+
+.logo {
+    width:255px;
+    height:43px;
+    float:left;
+    border-right: 1px solid #336666;
+    padding-right:12px;
+}
+
+.logo2 {
+    width:230px;
+    height:50px;
+    float:left;
+}
+
+.member-info {
+    float:right;
+    padding: 10px;
+}
+
+.member-info a {
+    color: #fff;
+}
+
+.member-id {
+    display: inline-block;
+    float: right;
+    background-color:#1a3c3f;
+    width:200px;
+    color:#fff;
+    padding: 8px;
+    padding-bottom:5px;
+    margin-right:5px;
+}
+
+.member-id sub {
+    color:#99cccc;
+    size:.5em;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+    line-height: 2;
+}
+
+.member-id a {
+    color: #fff;
+}
+
+.member-id img {
+    float:left;
+    max-width:30px;
+    margin-right:8px;
+    border-color: #fff;
+    border: 1px solid;
+}
+
+.member-id span{
+    float: left;
+}
+
+.member-id.span {
+    display:inline-block; 
+    vertical-align:middle;
+}
+
+.logout {
+    display: inline-block;
+    float: right;
+    background-color:#1a3c3f;
+    width:95px;
+    color:#fff;
+    height:34px;
+    padding: 8px;
+}
+
+.logout img {
+    border:0px;
+}
+
+.logout a {
+    color: #fff;
+    border:0px;
+}
+
+.logout img {
+    max-width:20px;
+}
+
+.password a {
+    color: #336666;
+    text-decoration: underline;
+}
+
+.password a:hover {
+    color: #48d1cc;
+    text-decoration: underline;
+}
+
+/* ----------------NAVIGATION END---------------------- */
+
+.wrap {
+    margin:0 auto;
+    width:1090px;
+    min-height:100%;
+}
+
+/* - - - CONTENT START - - -*/	
+#content {
+    padding:15px 0;
+    clear:both;
+}
+/* CONTENT END */
+
+/*- - - WELCOME PROFILE - - -*/
+.wel-wrap a {
+    font-size:15px;
+    color: #fff;
+}
+
+.wel-wrap a:hover {
+    font-size:15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wel-wrap {
+    margin-left:auto; 
+    margin-right:auto; 
+    height:220px; 
+    overflow:hidden;
+    display:inline-block;
+    font-size:12px;
+    clear:both;
+}
+
+.wel-wrap > div {
+    padding:7px;
+    height:90%;
+}
+
+.wel-wrap img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top:15px;
+    max-width:90%;
+}
+
+/*--- centers text inside of dashboard divs ----*/	
+
+.wel-wrap .inner-2, .wel-wrap .inner-3, .wel-wrap .inner-4, .wel-wrap .inner-5{
+    float:left; 
+    width:140px; 
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.inner-1 {
+    float:left; 
+    width:42%;
+    background-color:#f7f7f7;
+    line-height:2;
+    font-size:14px;
+    padding-top:0px;
+}
+	
+.inner-2 {
+    background-color:#236f76;
+}
+
+.inner-3 {
+    background-color:#206369;
+}
+
+.inner-4 {
+    background-color:#1b5257;
+}
+
+.inner-5 {
+    background-color:#18464a;
+}
+
+/*- - - END WELCOME PROFILE - - -*/
+/*----DASHBOARD------*/
+#dash-wrap {
+    margin-left:auto; 
+    margin-right:auto;
+    border-top:1px solid #b6b6b6;
+    overflow:hidden;
+}
+
+.myDash {
+    float:left; 
+    width:62%; 
+    padding-top:10px;
+    clear:both;
+}
+
+#dash-wrap h3 {
+    font-size:25px;
+    font-weight:normal;
+    margin:10px;
+}
+
+.dash-cell {
+    float:left; 
+    width:45%; 
+    border:1px solid #3a4150; 
+    margin-right:20px; 
+    margin-bottom:20px;
+}	
+
+.dash-cell img {
+    width:100%;
+}
+
+.dash-title {
+    background-color:#3a4150; 
+    color:#fff; 
+    margin:0; 
+    padding:8px; 
+    padding-left:8px; 
+    font-size:16px;
+}
+
+.dash-title img {
+    float:right;
+    padding-top:5px;
+    width:inherit;
+}
+
+/*-----END OF MY DASHBOARD ------*/	
+
+/*---MY HEALTH---*/
+.myHealth{
+    float:right; 
+    width:35%; 
+    border-left:1px solid  #b6b6b6; 
+    padding:10px;
+    padding-top:10px;
+    position:relative;
+}
+
+.myHealth img{
+    border: none;
+}
+
+.myHealth a:hover{
+    color:#fff;
+}
+
+.myHealth h3{
+    font-size:25px;
+    font-weight:normal;
+    margin:10px;
+}
+
+/*------My Health Boxes -------*/
+#boxes .box1, #boxes .box2, #boxes .box3, #boxes .box4, #boxes .box5, #boxes .box6, #boxes .apptrack {
+    vertical-align:middle;
+    position:relative;
+}
+
+#boxes .box1, #boxes .box2, #boxes .box3, #boxes .box4, #boxes .box5, #boxes .box6 {
+    float:left;
+    padding:25px;
+    padding-left:15px;
+    padding-top:8px;
+}
+/*  This brings the MyHealth link towards center */
+#boxes .box1 img, #boxes .box2 img, #boxes .box3 img, #boxes .box4 img, {
+}
+
+body a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+body a:hover {
+    text-decoration:none;
+}
+
+body h1 {
+    font-family: inherit;
+}	
+
+#boxes  div {
+    width:35%;
+    height:95px;
+    margin:5px;
+    color:#fff;
+    font-size:17px;
+    vertical-align: bottom;
+    display:block;
+    position:relative;
+}
+
+#boxes img {
+    border:0px;
+    padding:0px;
+}
+
+.box1 {
+    float:left; 
+    background-color:#208c96;
+}
+
+.box a {
+}
+
+.box2 {
+    float:right; 
+    background-color:#2ab089;
+}
+
+.box3 {
+    float:left; 
+    background-color:#425e90; 
+}
+
+.box4 {
+    float:right; 
+    background-color:#99b16e;
+}
+
+.box5 {
+    float:left; 
+    background-color:#cab77f;
+}
+
+.box6 {
+    float:right; 
+    background-color:#e3763a;
+}
+
+.apptrack {
+    float:left; 
+    width:86%; 
+    background-color:#cf6969;
+    padding:15px; 
+    margin:5px;
+    height:30px;
+    color:#fff;
+    font-size:18px;
+}
+
+.apptrack img {
+    float:right;
+    padding:0px;
+}
+
+/*---END MY HEALTH---*/	
+
+
+/*----BREAD CRUMBS -----*/
+
+.breadcrumbs {
+    font-weight: normal;
+    font-size: 13px;
+    padding:15px;
+}
+
+.breadcrumbs a {
+    color:#2ab089;
+    text-decoration: underline;
+}
+
+.breadcrumbs a:hover {
+    color:#1c8466;
+    text-decoration: underline;
+}
+
+/*----END BREAD CRUMBS -----*/
+
+
+/*---Grey Boxes ---*/
+
+.info {	 /*this is the box that will incase all things in a grey box*/
+    float:left; 
+    width:20%; 
+    margin-right:40px;
+    font-size:12px;
+    margin-bottom:40px;
+    color:#707070;
+}
+
+.info-right {   /* this pushes any text to the right in the INFO box*/
+    float: right;
+    color:#19555A;
+    font-weight:900;
+    font-size:14px;
+}
+
+.info-left {
+    clear: both;
+    float: left;
+}
+
+.info sub {
+    color:#969696;
+    font-style:italic;
+}
+
+.info strong {
+    color:#366;
+}
+
+.info-wrap {
+    margin-left: auto 0px;
+    margin-right: auto 0px;
+    height:525px;
+    margin-bottom:60px;
+}
+
+.gbox1-title {
+    background-color:#efefef; 
+    color:#366; 
+    margin:0px; 
+    padding:0px; 
+    font-size:21px;
+    width:100%;
+}
+
+.gboxes div {    /* this regulates attributes for every DIV that is a child of gboxes*/
+    height:100%;
+    padding:13px;
+    padding-top:5px;
+    margin-bottom:0px;
+    vertical-align: bottom;
+    display:block;
+    position:relative;
+}
+
+.gboxes img {
+    padding-bottom:0px;
+    max-width:100%;
+}
+
+.addfile {
+    padding-top:35%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    font-size:19px;
+    text-align: center;
+}
+
+.addfile a {
+    color:#707070;
+    text-decoration:none;
+}
+
+.addfile a:hover {
+    color:#55555;
+    text-decoration:none;
+}
+
+.gbox1-title a {
+    color:#3a4150;
+}
+
+.gbox1-title {
+    font-size:16px;
+    font-weight:normal;
+}
+
+.gbox1 {
+    float:left; 
+    width:100%; 
+    background-color:#efefef;
+}
+
+.gbox1-title sup {
+    text-align:right;
+    color:#1b5a60;
+    float:right;
+    font-size:12px;
+}
+
+.gbox1-title sub {
+    color:#3a4150;
+}
+
+.gbox1-sub {
+    color:#1b5a60;
+}
+
+.greysub {
+    float:left; 
+    width:100%; 
+    background-color:#e0e0e0;
+    padding:13px;
+    padding-top:3%; 
+    height:15px;
+    font-size:11px;
+    text-align: right;
+    vertical-align: top;
+    color:#1b5a60;
+}
+
+.greysub a {
+    color:#707070;
+    font-weight:900;
+}
+
+.greysub a:hover {
+    color:#1b5a60;
+    text-decoration:none;
+}
+
+/*----End of Grey Boxes ----*/
+
+/* - - - PROFILE - - - - - - -- */
+
+.title {
+    font-size:18px;
+    font-weight:normal;
+}
+
+.inner-1 .title {
+    font-size:23px;
+    font-weight:normal;
+}
+
+.small-title {
+    font-size:14px;
+    font-weight:normal;
+    padding-bottom:6px;
+    font-weight:300px;
+    color: #19555a;
+}
+
+.small-title2 {
+    font-size:14px;
+    font-weight:normal;
+    font-weight:300px;
+    color: #19555a;
+    float: left;
+}
+
+#profile-wrap {
+    margin-left:auto; 
+    margin-right:auto;
+    overflow:hidden;
+    background-color:#efefef;
+    padding:10px;
+    height:100%;
+    margin-bottom:40px;
+}
+
+.l-profile {
+    float:left; 
+    width:40%;
+    clear:both;
+    border-right:1px solid  #d5d2d2; 
+    height:100%;
+}
+		
+.r-profile{
+    float:right; 
+    width:59%;
+    height:100%;
+}
+
+.profile-edit {
+    margin-left:auto;
+    margin-right:auto;
+    font-size:10px;
+    float:right;
+    color:#3a4150;
+}
+
+.profile-edit a {
+    color:#3a4150;
+}
+
+.r-profile a:hover {
+    color:#fff;
+}
+
+.r-profile h3 {
+    font-size:25px;
+    font-weight:normal;
+    margin:10px;
+}
+
+/*- - - - left cell - - - -*/
+
+.profile-cell {
+    float:left; 
+    width:90%; 
+    margin-bottom:20px;
+    background-color:#e1e1e1;
+    font-size:13px;
+    font-weight:normal;
+    padding:8px;
+    color:#707070;
+    height:99px;
+}	
+	
+.profile-cell img {
+    float: left;
+    max-width:60%;
+    padding-right:8px
+}
+	
+.blank-profile-cell img {
+    float: left;
+    /*max-width:60%;*/
+    max-width:50%;
+    padding-right:8px
+}
+
+.blank-profile-cell {
+    float:left; 
+    width:90%; 
+    margin-bottom:0px;
+    font-size:13px;
+    font-weight:normal;
+    padding:8px;
+}	
+
+.user-info {
+    float:left;
+    line-height:105%;
+}
+	
+p.user-info {
+}
+	
+.edit-profile-btn{
+    background-color:#1abc9c;
+    padding:8px 20px 8px 20px;
+    float:right;
+    color:#fff;
+    font-size:13px;
+    margin-right:8px;
+    border-radius: 5px 5px 5px 5px; /* top left, top right, bottom right, bottom left */
+}
+	
+/*- - - - right cell - - - -*/	
+
+.r-profile-cell{
+    float:left;
+    width:43%; 
+    height:131px;
+    margin-right:5px;
+    margin-left:16px;
+    margin-bottom:13px;
+    background-color:#e1e1e1;
+    font-size:12px;
+    font-weight:lilghter;
+    padding:8px;
+    color:#707070;
+}
+
+.profile-cell img {
+    width:100%;
+}
+
+.profile-title {
+    color:#fff; 
+    margin:0; 
+    padding:8px; 
+    padding-left:8px; 
+    font-size:16px;
+}
+
+/* - - -  END PROFILE - - - */
+
+
+.medical-bar{		 /* this is green bar attop info in the medical records page */
+    width:100%;
+    background-color:#cae0ba;
+    padding:10px 0px 10px 0px;
+    font-size:23px;
+    weight:lighter;
+    margin-bottom:15px;	
+}
+
+.med-bar_title { /* the pushes the title text 20px from the left of parent div */
+    display: inline;
+    margin-left:20px;
+}
+
+.med-bar_right {
+    float: right;
+    font-size:14px;
+    padding-right:10px;
+}
+
+/* --- select dropdowns ---*/
+.sort select {
+    border: 0 !important;  /*Removes border*/
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    background: #fff url(../img/select-arrow.png) no-repeat 90% center;
+    width: 180px; /*Width of select dropdown to give space for arrow image*/
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+    color: #1e4549;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.other select {
+    border: 0 !important;  /*Removes border*/
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    background: #1abc9c url(../img/select-arrow-other.png) no-repeat 90% center;
+    width: 180px; /*Width of select dropdown to give space for arrow image*/
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+	
+/*-----FOOTER START------*/	
+#footer {
+    background:#3a4150;
+    /*text-align:center;*/
+    border-top:12px;
+    border-top-color:#6f7c96;
+    border-top-style:solid;
+    padding-bottom:10px;
+    padding-bottom:20px;
+    /*To anchor to bottom of page uncomment the following lines:*/
+    position:relative;
+    bottom:0;
+    overflow:hidden;
+    height: 100px;
+}
+	
+#footer a {
+    color:#6f7c96;
+}
+	
+#foot-nav li {
+    display:inline-block;
+    line-height: 1%;
+    float: right;
+}
+
+#foot-nav li a {
+    /*font-family:Tahoma;*/
+    font-size:16px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-right:0px;
+}
+
+#foot-nav li a:hover {
+    text-decoration: none;
+    border-bottom-color:#6f7c96;
+    border-bottom-style:solid;
+    margin-top:0px;
+}
+
+.footer-right {
+    display: inline-block;
+    float: right;
+    width: 360px;
+    color: #fff;
+    padding: 8px;
+    padding-bottom: 5px;
+}
+/*-----FOOTER END-----*/
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+}
+
+.redbold {
+    color: red;
+    font-weight: bold;
+}
+
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+/* rows -------------- */
+
+	
+
+/**************************/
+
+		CALENDAR 
+		
+/**************************/		
+
+

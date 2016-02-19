@@ -1,0 +1,140 @@
+html,body {
+    background: #fff;
+    color:#336666;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    background: #377075;
+    color: #fff;
+    line-height: 95% !important;
+    min-width: 100%;
+    float: left;
+}
+
+#top h2 {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#edit {
+    color: #377075;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100%;
+    float: left;
+}
+
+#container {
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+#container input[type=text] {
+    background-color: #efefef; 
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+}
+
+#container input[type=file] {
+    background-color: #efefef; 
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+}
+
+#container input[type=radio] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container textarea {
+    background-color: #efefef;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    text-align: left;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    width: 89%;
+}
+
+.button-wrap {
+    float: right;
+    padding-right: 55px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.cancel-btn {
+    background-color: #888888;
+    padding: 8px 20px 8px 20px;
+    font-size: 18px;
+    margin-right: 8px;
+    border-radius: 5px 5px 5px 5px; /* top left, top right, bottom right, bottom left */
+    display: inline;
+}
+
+.cancel-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.update-btn {
+    background-color: #339999;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 8px;
+    border-radius: 5px 5px 5px 5px; /* top left, top right, bottom right, bottom left */
+    display: inline;
+}
+
+.update-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #993399;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 8px;
+    border-radius: 5px 5px 5px 5px; /* top left, top right, bottom right, bottom left */
+    display: inline;
+}
+
+.delete-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.redbold {
+    color: #f00;
+    font-weight: bold;
+}
+
+.radio {
+    color: #000;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 20px;
+}

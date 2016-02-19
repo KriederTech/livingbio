@@ -1,0 +1,152 @@
+#cal_wrap {
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden;
+}
+	
+#cal_wrap h1 {
+    font-family: inherit;
+}
+
+.cal_right {
+    float: left; 
+    width: 40%; 
+    padding: 10px;
+    padding-top: 10px;
+    position: relative;	
+}
+
+.cal_left {
+    float: left; 
+    width: 54%; 
+    padding-top: 10px;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.cal_month {
+    /* month div*/
+    width: 540px;
+    border: 1px solid #e9eaf0;
+    border-bottom-width: 2px;
+    border-bottom-color: #e1e1e1;
+    color: #4c5373;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    margin-left: 30px;
+    -webkit-box-shadow: 0 20px 6px -6px black;
+    -moz-box-shadow: 0 20px 6px -6px black;
+    box-shadow: 0 20px 6px -6px black;
+}
+ 
+.cal_month .cal_title {
+    background: #e9eaf0;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+ 
+p.cal_month ul {
+    clear: both;
+    list-style: none;
+    margin: 0px;
+    padding: 4px;
+    margin: auto;
+    width: 168px;
+}
+
+.cal_month ul li {
+    list-style: none;
+    float: left;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #dde0e8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #FFF;
+    color: #333;
+    font-size: 23px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 2.5;
+}
+
+.cal_month ul li.cal_weekday {
+    color: #91d9ff;
+    background: none;
+    border-color: transparent;
+}
+
+.cal_month ul li.event {
+    color: #111;
+    background: #cdd0dd;
+}
+ 
+.cal_month ul li.cal_empty {
+    background: none;
+    border: 1px solid transparent;
+    color: #b6bacc;
+}
+
+.cal_month ul li.today {
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #ff8263;
+}
+ 
+
+/*--------------*/
+ /*	appointments */
+/*--------------*/
+.appointment_list {
+    width: auto;
+    line-height: 4;
+    font-size: 20px;
+}
+
+.appointment_title {
+    padding-top: 30px;
+    text-align: bottom;
+}
+
+.appointment_list ul li {
+    list-style: none;
+    padding-left: -30px;
+}
+
+.hr_light {
+    border: 1px solid #e1e1e1;
+}
+
+.past_app {
+    text-decoration: line-through;
+    color: #b9becf;
+}
+
+.event {
+    color: #ff8263;
+    text-weight: 900;
+}
+
+.app_btn {
+    float: right;
+    padding: 11px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #2f919a;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.app_btn img {
+    max-width: 20px;
+    float: left;
+    padding-right: 5px;
+    border-style: none;
+}

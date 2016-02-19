@@ -1,0 +1,12 @@
+<?php
+
+class GetMedicalRecords
+{
+    private $userid;
+
+    public function __construct($userid)
+    {
+        $this->userid = $userid;
+    }
+}
+?>
